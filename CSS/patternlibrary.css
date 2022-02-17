@@ -49,5 +49,10 @@ p.one{
   border-style: solid;
   border-width: 5px;
 }
+hr{
+  border-color:#100870;
+  border-width: 1px;
+
+}
 
 /*Blue: #021871, Red:#99230B, Green: #19623B, Brown: #663025, yellow:#D58E0B*/
