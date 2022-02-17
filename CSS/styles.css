@@ -1,7 +1,7 @@
 p {
 /*this is how you change style of every paragraph element*/
   background-color: white;
-  color: lightblue;
+  color: #663025;
   text-align: center;
 }
 /*this is how you change the style of something you make an id of so as you can see above it relates to the id"test-id-1*/
@@ -12,7 +12,7 @@ h1 {
 /*this is how you change the style of every h1 element*/
   font-style: italic;
   background-color: white;
-  color: lightgreen;
+  color: #99230B;
   font-size: 400%
 }
 /*makes first letter black for all h1's*/
@@ -21,13 +21,12 @@ h1:first-letter{
 }
 a {
 /*this is how you change link color*/
-  color:brown;
-}
+  color: #99230B;
 
 .test-class{
   text-shadow: 2px 20px red;
 }
 
 a:hover{
-  color:pink
+  color:#19623B
 }
