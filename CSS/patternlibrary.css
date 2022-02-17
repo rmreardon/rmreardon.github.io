@@ -1,0 +1,53 @@
+
+h1 {
+  color:#F09A9A
+}
+.test-class{
+  text-shadow: 1px 1px #663025;
+}
+h2 {
+  color:#021871
+}
+h3 {
+  color:#663025
+}
+h4 {
+  color:#663025
+}
+h5 {
+  color:#663025
+}
+h6 {
+  color:#663025
+}
+
+p {
+  color:#663025
+}
+a {
+  color:#19623B
+}
+a:hover{
+  color:#F3AA3B
+}
+a:active{
+  color:#F3AA3B
+}
+button {
+  background-color:#F09A9A;
+  border-radius: 32px;
+  color: white;
+  padding: 10px 80px;
+  text-align: center;
+  display: inline-block;
+  font-size:16px;
+}
+button:hover{
+  background-color:#F3AA3B
+}
+p.one{
+  border-style: solid;
+  border-width: 5px;
+}
+
+/*Blue: #021871, Red:#99230B, Green: #19623B, Brown: #663025, yellow:#D58E0B*/
