@@ -1,13 +1,33 @@
 p {
+/*this is how you change style of every paragraph element*/
   background-color: white;
   color: lightblue;
   text-align: center;
 }
-
+/*this is how you change the style of something you make an id of so as you can see above it relates to the id"test-id-1*/
+#test-id-1 {
+  color:purple;
+}
 h1 {
+/*this is how you change the style of every h1 element*/
   font-style: italic;
   background-color: white;
   color: lightgreen;
   font-size: 400%
+}
+/*makes first letter black for all h1's*/
+h1:first-letter{
+  color:black
+}
+a {
+/*this is how you change link color*/
+  color:brown;
+}
 
+.test-class{
+  text-shadow: 2px 20px red;
+}
+
+a:hover{
+  color:pink
 }
