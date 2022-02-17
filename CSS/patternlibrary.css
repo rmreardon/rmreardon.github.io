@@ -41,6 +41,7 @@ button {
   text-align: center;
   display: inline-block;
   font-size:16px;
+  font-family: TIMES;
 }
 button:hover{
   background-color:#F3AA3B
@@ -52,7 +53,10 @@ p.one{
 hr{
   border-color:#100870;
   border-width: 1px;
+}
 
+table{
+  color:#663025;
 }
 
 /*Blue: #021871, Red:#99230B, Green: #19623B, Brown: #663025, yellow:#D58E0B*/
