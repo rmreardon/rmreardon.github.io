@@ -1,9 +1,4 @@
-p {
-/*this is how you change style of every paragraph element*/
-  background-color: white;
-  color: #663025;
-  text-align: center;
-}
+
 /*this is how you change the style of something you make an id of so as you can see above it relates to the id"test-id-1*/
 #test-id-1 {
   color:purple;
@@ -24,9 +19,19 @@ a {
   color: #99230B;
 
 .test-class{
-  text-shadow: 0px 0px red;
+  text-shadow: 2px 20px red;
 }
 
 a:hover{
   color:#19623B
+}
+p {
+  background-color: green;
+  padding: 10px 30px 5px 40px;
+  margin: 200px 100px 200px 200px;
+  border: 20px solid black;
+}
+
+span {
+  background-color: red;
 }
