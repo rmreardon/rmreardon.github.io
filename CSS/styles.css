@@ -1,23 +1,61 @@
+p {
+  background-color: green;
+  padding: 10px 30px 5px 40px;
+  margin: 200px 100px 200px 200px;
+  border: 20px solid black;
+  width: 150px;
+  height: 200px;
+  color: red;
+  display: inline-block;
+}
+/*span {
+  background-color: red;
+  padding: 5px;
+}*/
+/*
+.wrapper{
+  display: flex;
+  background-color: red;
+}
+*/
+.wrapper{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+  grid-gap: 10px;
+}
 
+.box1{
+  grid-column:2/4;
+  grid-row:1;
+  background-color: orange;
+}
+
+.box2{
+  grid-row:2;
+  grid-column:3;
+  background color:purple;
+}
 /*this is how you change the style of something you make an id of so as you can see above it relates to the id"test-id-1*/
+/*
 #test-id-1 {
   color:purple;
 }
 h1 {
-/*this is how you change the style of every h1 element*/
+
   font-style: italic;
   background-color: white;
   color: #99230B;
   font-size: 400%
 }
-/*makes first letter black for all h1's*/
+
 h1:first-letter{
   color:black
 }
 a {
-/*this is how you change link color*/
-  color: #99230B;
 
+  color: #99230B;
+}
 .test-class{
   text-shadow: 2px 20px red;
 }
@@ -25,13 +63,4 @@ a {
 a:hover{
   color:#19623B
 }
-p {
-  background-color: green;
-  padding: 10px 30px 5px 40px;
-  margin: 200px 100px 200px 200px;
-  border: 20px solid black;
-}
-
-span {
-  background-color: red;
-}
+*/
