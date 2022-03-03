@@ -1,0 +1,22 @@
+@media screen and (min-width: 400px) {
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color:yellow;
+    padding:20px;
+  }
+  .title{
+    background-color:red
+  }
+  .nav{
+    background-color:green
+  }
+  .content{
+    background-color:purple
+  }
+}
+@media screen and (min-width:1px){
+
+
+}
