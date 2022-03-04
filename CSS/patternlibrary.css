@@ -1,5 +1,12 @@
+@media screen and (min-width:400px) {
+  .box {
+    background-color:yellow
+  }
+}
+@media screen and (min-width:1px) {
 
-h1 {
+}
+/* h1 {
   color:#F09A9A
 }
 .test-class{
@@ -58,7 +65,6 @@ hr{
 table{
   color:#663025;
 }
-
 
 
 /*Blue: #021871, Red:#99230B, Green: #19623B, Brown: #663025, yellow:#D58E0B*/
