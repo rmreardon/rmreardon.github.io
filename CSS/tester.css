@@ -1,0 +1,14 @@
+@media screen and (min-width:400px) {
+  body {
+    background-color: purple;
+  }
+  .navigation {
+    background-color: red
+  }
+
+}
+@media screen and (max-width:399px) {
+  body{
+    background-color: purple;
+  }
+}

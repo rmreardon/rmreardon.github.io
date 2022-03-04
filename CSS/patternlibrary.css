@@ -1,12 +1,13 @@
 @media screen and (min-width:400px) {
-  .box {
+  .home {
     background-color:yellow
   }
 }
 @media screen and (min-width:1px) {
 
 }
-/* h1 {
+
+h1 {
   color:#F09A9A
 }
 .test-class{
