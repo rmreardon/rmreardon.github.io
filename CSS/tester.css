@@ -4,7 +4,7 @@
   }
   .main{
     display: grid;
-    grid-template-columns: 225px 800px 1fr;
+    grid-template-columns: 225px 1fr 100px;
     grid-template-rows: 70px 1fr 1fr;
     background-color:white;
     padding: 20px;
@@ -91,13 +91,101 @@
     border-width: 5px;
   }
   hr{
-    border-color:#F3AA3B;
+    border-color:#F09A9A;
     border-width: 1px;
   }
 
 }
 @media screen and (max-width:399px) {
-  body{
-    background-color: purple;
+  body {
+    background-color: white;
+  }
+  .main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 70px 1fr 1fr 1fr;
+    background-color:white;
+    padding:20px;
+    gap:20px;
+  }
+  .title{
+    background-color: white;
+    grid-column: 1;
+    grid-row: 1/2;
+  }
+  .navigation {
+    background-color: white;
+    grid-column: 1;
+    grid-row: 2/3;
+  }
+  .image {
+    background-color: white;
+    grid-column: 1;
+    grid-row: 3/4;
+  }
+  .profilepicture {
+    background-color: white;
+    grid-column: 1;
+    grid-row:4/5;
+  }
+  .introduction {
+    background-color: white;
+    grid-column:1;
+    grid-row:5/6;
+  }
+  h1 {
+    color:#F09A9A
+  }
+  .test-class{
+    text-shadow: 1px 1px #663025;
+  }
+  h2 {
+    color:#021871
+  }
+  h3 {
+    color:#663025
+  }
+  h4 {
+    color:#663025
+  }
+  h5 {
+    color:#663025
+  }
+  h6 {
+    color:#663025
+  }
+
+  p {
+    color:#663025
+  }
+  a {
+    color:#19623B
+  }
+  a:hover{
+    color:#F3AA3B
+  }
+  a:active{
+    color:#F3AA3B
+  }
+  button {
+    background-color:#F09A9A;
+    border-radius: 32px;
+    color: white;
+    padding: 10px 80px;
+    text-align: center;
+    display: inline-block;
+    font-size:16px;
+    font-family: TIMES;
+  }
+  button:hover{
+    background-color:#F3AA3B
+  }
+  p.one{
+    border-style: solid;
+    border-width: 5px;
+  }
+  hr{
+    border-color:#F3AA3B;
+    border-width: 1px;
   }
 }
