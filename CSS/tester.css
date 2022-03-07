@@ -184,7 +184,8 @@
     grid-column:3/5;
     grid-row: 3;
     border: 2px solid #F3AA3B;
-    padding: 10px
+    padding: 10px;
+    text-align: center;
   }
 
 }
