@@ -115,7 +115,7 @@
   }
 
   div.desc {
-    padding: 15px;
+    padding: 1px;
     text-align: center;
   }
   .projectslist{
@@ -152,7 +152,7 @@
   .mainprojectspage{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 70px 300px 300px;
+    grid-template-rows: 70px 1fr 1fr;
     background-color:white;
     padding: 10px;
     gap:40px;
