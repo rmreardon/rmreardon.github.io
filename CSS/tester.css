@@ -5,7 +5,7 @@
   .main{
     display: grid;
     grid-template-columns: 225px 1fr 100px;
-    grid-template-rows: 70px 1fr 1fr;
+    grid-template-rows: 70px 400px 1fr;
     background-color:white;
     padding: 20px;
     gap:20px;
@@ -102,36 +102,36 @@
   }
   .main{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 70px 70px 1fr 1fr 1fr;
+    grid-template-columns: 300px 100px;
+    grid-template-rows: 70px 70px 100px 400px 600px;
     background-color:white;
     padding:20px;
     gap:20px;
   }
   .title{
     background-color: white;
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 1/2;
   }
   .navigation {
     background-color: white;
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 2/3;
   }
   .image {
     background-color: white;
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row: 3/4;
   }
   .profilepicture {
     background-color: white;
-    grid-column: 1;
+    grid-column: 1/2;
     grid-row:4/5;
   }
   .introduction {
     background-color: white;
-    grid-column:1;
-    grid-row:5/6;
+    grid-column:2/3;
+    grid-row:4/5;
   }
   h1 {
     color:#F09A9A
