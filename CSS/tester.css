@@ -168,10 +168,15 @@
     padding-left: 0px;
     text-align: left;
   }
-  #test-id-1{
-    color:purple;
+  #navigation-id{
+    color:#663025;
     text-decoration:none;
   }
+  .navigation:hover{
+    color:red;
+  }
+
+
   .html{
     grid-column:1/3;
     grid-row: 2;
