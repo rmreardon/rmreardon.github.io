@@ -164,16 +164,13 @@
   .projectnavigation{
     grid-column:2/4;
     grid-row: 1;
-    padding-top: 18px;
+    padding-top: 30px;
     padding-left: 0px;
     text-align: left;
   }
   #navigation-id{
     color:#663025;
     text-decoration:none;
-  }
-  .navigation:hover{
-    color:red;
   }
 
 
@@ -286,12 +283,12 @@
   }
   button {
     background-color:#F09A9A;
-    border-radius: 32px;
+    border-radius: 36px;
     color: white;
-    padding: 10px 80px;
+    padding: 5px 20px;
     text-align: center;
     display: inline-block;
-    font-size:16px;
+    font-size:12px;
     font-family: TIMES;
   }
   button:hover{
@@ -309,5 +306,76 @@
   .resumecontent{
     margin-left: 50px;
   }
+  .mainprojectspage{
+    display: grid;
+    grid-template-columns: 1fr 30px;
+    grid-template-rows: 30px 30px  200px 1fr 1fr 1/2fr;
+    background-color:white;
+    padding: 10px;
+    gap:40px;
+  }
+  .projecttitle {
+    grid-column:1/2;
+    grid-row: 1/2;
+  }
+  .projectnavigation{
+    grid-column:1/2;
+    grid-row: 2/3;
+    text-align: left;
+  }
+  #navigation-id{
+    color:#663025;
+    text-decoration:none;
+  }
+  .html{
+    grid-column:1/2;
+    grid-row: 3/4;
+    border: 2px solid #F3AA3B;
+    padding: 5px;
+  }
+  .artworkgallery{
+    grid-column:1/2;
+    grid-row: 4/5;
+    border: 2px solid #F3AA3B;
+    padding: 10px;
+  }
+  .photographygallery{
+    grid-column:1/2;
+    grid-row: 5/6;
+    border: 2px solid #F3AA3B;
+    padding: 10px;
+  }
+  .webdesign{
+    grid-column:1/2;
+    grid-row: 6/7;
+    border: 2px solid #F3AA3B;
+    padding: 30px;
+  }
+  .divbuttons{
+    text-align: center;
+  }
+div.gallery {
+  margin: 1px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 80px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 1px;
+  text-align: center;
+}
+.projectslist{
+  text-align: left;
+}
 
 }
