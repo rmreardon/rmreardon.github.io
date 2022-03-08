@@ -154,8 +154,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 70px 1fr 1fr;
     background-color:white;
-    padding: 10px;
-    gap:40px;
+    padding: 20px;
+    gap:20px;
   }
   .projecttitle {
     grid-column:1/2;
@@ -311,8 +311,8 @@
     grid-template-columns: 1fr 30px;
     grid-template-rows: 30px 30px  200px 1fr 1fr 1/2fr;
     background-color:white;
-    padding: 10px;
-    gap:40px;
+    padding: 20px;
+    gap:20px;
   }
   .projecttitle {
     grid-column:1/2;
@@ -355,7 +355,7 @@
     text-align: center;
   }
 div.gallery {
-  margin: 1px;
+  margin: 0px;
   border: 1px solid #ccc;
   float: left;
   width: 80px;
