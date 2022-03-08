@@ -162,7 +162,7 @@
   }
   .mainprojectspage{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 225px 1fr 1fr 1fr;
     grid-template-rows: 70px 1fr 1fr;
     background-color:white;
     padding: 20px;
@@ -175,8 +175,7 @@
   .projectnavigation{
     grid-column:2/4;
     grid-row: 1;
-    padding-top: 30px;
-    padding-left: 0px;
+    padding: 34px;
     text-align: left;
   }
   #navigation-id{
@@ -215,7 +214,7 @@
   }
   .maincontact{
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 225px 1fr;
     grid-template-rows: 70px 100px 1fr;
     background-color:white;
     padding: 20px;
@@ -233,6 +232,11 @@
     padding: 20px;
     text-align: center;
 
+  }
+  .contactnavigation{
+    grid-column:2/4;
+    grid-row: 1/2;
+    padding: 34px;
   }
   @keyframes slidein {
     from{
