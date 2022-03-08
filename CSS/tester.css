@@ -91,7 +91,6 @@
     background-color:#F3AA3B
   }
   input {
-    width: 100%;
     box-sizing: border-box;
     border: 2px solid #F3AA3B;
     border-radius: 36px;
@@ -230,6 +229,7 @@
   .contactline{
     grid-column: 1/3;
     grid-row:2/3;
+    padding:5px;
   }
   .contactinput{
     grid-column:2/3;
