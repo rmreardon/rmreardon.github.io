@@ -258,7 +258,7 @@
   }
 
 }
-@media screen and (max-width:399px) {
+@media screen and (max-width:399px)and (min-width:200px) {
   body {
     background-color: yellow;
   }
