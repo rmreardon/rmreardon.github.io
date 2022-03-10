@@ -372,6 +372,7 @@
   .projecttitle {
     grid-column:1;
     grid-row: 1;
+    padding:10px;
   }
   .projectnavigation{
     grid-column:1;
