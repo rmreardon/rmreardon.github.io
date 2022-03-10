@@ -5,7 +5,7 @@
   .main{
     display: grid;
     grid-template-columns: 240px 1fr 100px;
-    grid-template-rows: 70px 1fr 400px 1/2fr;
+    grid-template-rows: 70px 1fr 400px 0.5fr;
     background-color:white;
     padding: 20px;
     gap:20px;
@@ -260,12 +260,12 @@
 }
 @media screen and (max-width:399px) {
   body {
-    background-color: white;
+    background-color: yellow;
   }
   .main{
     display: grid;
     grid-template-columns: 300px 100px;
-    grid-template-rows: .33fr .33fr 1fr 1fr 1fr .125fr;
+    grid-template-rows: 0.33fr 0.33fr 1fr 1fr 1fr 0.125fr;
     background-color:white;
     padding:20px;
     gap:20px;
@@ -274,7 +274,6 @@
     background-color: white;
     grid-column: 1/2;
     grid-row: 1/2;
-    padding:5px;
   }
   .navigation {
     background-color: white;
