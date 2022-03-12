@@ -372,9 +372,9 @@
   .projecttitle {
     grid-column:1;
     grid-row: 1;
-    padding:10px;
   }
   .projectnavigation{
+    gap:10px;
     grid-column:1;
     grid-row: 2;
     text-align: left;
@@ -447,9 +447,9 @@ p.projectslist{
   background-color: white;
   grid-column: 1;
   grid-row: 1;
+  padding: 10px;
 }
 .navigationresume {
-  padding: 10px;
   background-color: white;
   grid-column: 1;
   grid-row: 2;
