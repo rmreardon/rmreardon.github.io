@@ -265,7 +265,7 @@
   .main{
     display: grid;
     grid-template-columns: 300px 100px;
-    grid-template-rows: 30px 30px 8fr 8fr 8fr 1fr;
+    grid-template-rows: 30px 30px 4fr 8fr 8fr 1fr;
     background-color:white;
     padding:20px;
     gap:20px;
