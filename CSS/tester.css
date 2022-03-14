@@ -476,10 +476,9 @@ p.projectslist{
   background-color: white;
   grid-column: 1;
   grid-row: 1;
-  padding: 10px;
 }
 .navigationresume {
-  gap:10px;
+  gap:20px;
   background-color: white;
   grid-column: 1;
   grid-row: 2;
