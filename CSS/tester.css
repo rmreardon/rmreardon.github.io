@@ -304,6 +304,9 @@
     grid-row: 3/4;
     width: 100%;
   }
+  #sunsetimage{
+    width:100%;
+  }
   .profilepicture {
     background-color: white;
     width: 50%;
