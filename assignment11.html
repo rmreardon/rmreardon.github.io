@@ -17,13 +17,20 @@
 
         <div class="resumecontent">
           <h2>Assignment 11: Using JavaScript in HTML</h2>
-          <h3>Submit first and last name</h3>
-          <form id="frm1" action="/action_page.php">
-            First name: <input type="text" name="fname">
-          <br>
-            Last name: <input type="text" name="lname"><br><br>
-          <input type="button" onclick="myFunction()" value="Submit">
+          <h3>Create Drop Down</h3>
+          <form>
+            Select your favorite fruit:
+            <select id="mySelect">
+              <option>Apple</option>
+              <option>Orange</option>
+              <option>Pineapple</option>
+              <option>Banana</option>
+            </select>
+            <br><br>
+            <input type="button" onclick="getOption()" value="Click Me!">
           </form>
+
+            <p id="demo"></p>
           <h3>Asking for feedback if rated below a 6</h3>
           <button type="button">Rate My Page! </button>
           <script src="./js/script.js" charset="utf-8"></script>
