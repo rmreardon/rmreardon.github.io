@@ -1,4 +1,4 @@
-const para = document.querySelector('p');
+const para = document.querySelector('ratemywebsite');
 
 para.addEventListener('click', askRating);
 
