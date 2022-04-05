@@ -1,8 +1,8 @@
-const para = document.querySelector('p');
+const para = document.querySelector('button');
 
 para.addEventListener('click', updateName);
 
 function updateName () {
-  const name = prompt('Enter a new name');
-  para.textContent = `Player 1: ${name}`;
+  const name = prompt('Enter your email');
+  para.textContent = `Thank You!`;
 }
