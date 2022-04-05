@@ -98,7 +98,8 @@
     background-color: white;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
-    width:50%
+    width:50%;
+    font-family: TIMES;
   }
   p.one{
     border-style: solid;
@@ -524,6 +525,7 @@ input {
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
   width:50%;
+  font-family: TIMES;
 }
 
 }
