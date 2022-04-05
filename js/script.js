@@ -1,4 +1,4 @@
-/*const para = document.querySelector('button');
+const para = document.querySelector('button');
 
 para.addEventListener('click', updateName);
 
@@ -6,7 +6,7 @@ function updateName () {
   const name = prompt('Enter your email');
   para.textContent = `Thank You!`;
 }
-*/
+
 const para = document.querySelector('button');
 
 para.addEventListener('click', askRating);
@@ -19,4 +19,5 @@ function askRating () {
   } else{
     alert('Thank you for your feedback')
   }
+  para.textContent = `Thank You!`;
 }
