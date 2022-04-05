@@ -21,9 +21,3 @@ function askRating () {
   }
   para.textContent = `Thank You!`;
 }
-
-function getOption() {
-  var obj = document.getElementById("mySelect");
-  document.getElementById("demo").innerHTML =
-  obj.options[obj.selectedIndex].text;
-}
