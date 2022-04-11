@@ -13,6 +13,7 @@ async function getQuote() {
     alert('Failed');
   }
 }
+
 function displayQuote(quote) {
   const quoteText = document.querySelector('#js-quote-text');
   quoteText.textContent = quote;
@@ -20,3 +21,8 @@ function displayQuote(quote) {
 const endpoint = 'https://www.boredapi.com/api/activity';
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
+
+const theButton = document.querySelector("button");
+theButton.addEventListener("click", () => {
+  theButton.classList.add("button--loading");
+});
