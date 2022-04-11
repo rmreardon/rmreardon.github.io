@@ -22,7 +22,14 @@ const endpoint = 'https://www.boredapi.com/api/activity';
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
 
-const theButton = document.querySelector("button");
-theButton.addEventListener("click", () => {
-  theButton.classList.add("button--loading");
+let newquotebutton = document.querySelector('#js-new-quote');
+let CountButtonHomeClicks = 0;
+
+newquotebutton.addEventListener('click', function () {
+  CountButtonHomeClicks += 1;
+  console.log(CountButtonHomeClicks);
+
+  if (CountButtonHomeClicks == 3) {
+    alert(`Give up and do nothing`)
+  }
 });
