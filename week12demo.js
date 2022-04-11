@@ -19,9 +19,10 @@ async function getQuote() {
 }
 
 function displayQuote(quote) {
-  const quoteTest=document.querySelector('#js-quote-text');
+  const quoteTest = document.querySelector('#js-quote-text');
   quoteText.textContent = quote;
 }
-const endpoint = 'http://quotes.stormconsultancy.co.uk/random.json';
+const endpoint = 'https://catfact.ninja/fact';
+
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
