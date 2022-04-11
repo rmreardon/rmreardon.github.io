@@ -29,7 +29,7 @@ newquotebutton.addEventListener('click', function () {
   CountButtonHomeClicks += 1;
   console.log(CountButtonHomeClicks);
 
-  if (CountButtonHomeClicks == 3) {
+  if (CountButtonHomeClicks == 5) {
     alert(`Give up and do nothing`)
   }
 });
