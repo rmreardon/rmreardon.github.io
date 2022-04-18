@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = "It was a very humid day, so :insertx: was sweating buckets. Once they arrived at :inserty:, they burst into tears and fell down, then :insertz:. Chandler was not remotely surprised when seeing this chain of events occur — :insertx: has hives, and it was a humid day.";
+const storyText = "It was 155 fahrenheit and a very humid day, so :insertx: was sweating buckets. Once they arrived at :inserty:, they burst into tears and fell down, then :insertz:. Bob was not remotely surprised when seeing this chain of events occur — :insertx: weighs 300 pounds, and it was a humid day.";
 const insertX = ["Anita Bath", "Lipin Jection", "Phil Down"];
 const insertY = ["Staples", "your parents house", "Dwayne Johnson's house"];
 const insertZ = ["squished an ant with their bare finger", "slapped Chris Rock to see what it was like", "peeled a banana and then threw the peel at a tree"];
@@ -36,8 +36,8 @@ newStory=newStory.replace(/:insertz:/g, zItem)
     const weight = Math.round(300*0.0714286) + ' stone'; //replace 300 with formula you find on internet
     //turn weight into string
     //add string and ' stone' together
-    const temperature =  Math.round((94 + 32)*5 / 9) + ' centigrade';
-    newStory = newStory.replace ('94 fahrenheit', temperature);
+    const temperature =  Math.round((155 + 32)*5 / 9) + ' centigrade';
+    newStory = newStory.replace ('155 fahrenheit', temperature);
     newStory = newStory.replace ('300 pounds', weight)
     //convert fahrenheit to centigrade
     //replace values in string with temp and weight var

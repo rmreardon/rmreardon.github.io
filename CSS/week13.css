@@ -2,4 +2,50 @@ body {
   font-family: Times;
   background-color: #F09A9A;
   color: #021871;
+  width: 600px;
+}
+
+label {
+  font-weight: bold;
+}
+
+div {
+  font-family: Times;
+  padding-bottom: 20px;
+}
+.madlib {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  padding: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+}
+
+p {
+  background: #F3AA3B;
+  color: #021871;
+  padding: 10px;
+  visibility: hidden;
+}
+button {
+  background-color:#F09A9A;
+  border-radius: 32px;
+  color: white;
+  padding: 10px 80px;
+  text-align: center;
+  display: inline-block;
+  font-size:16px;
+  font-family: TIMES;
+}
+button:hover{
+  background-color:#F3AA3B
 }
