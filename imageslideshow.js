@@ -1,5 +1,5 @@
 let slideIndex = 1;
-showSlides(slideIndex);
+// showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
@@ -7,16 +7,18 @@ function plusSlides(n) {
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide(n, parentClass) {
+  showSlides(n, parentClass);
 }
 
-function showSlides(n) {
+function showSlides(n, parentClass) {
+  const parent = document.querySelector(parentClass);
   let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  let slides = parent.getElementsByClassName("mySlides");
+  let dots = parent.getElementsByClassName("dot");
+  let slideIndex = n%slides.length;
+  // if (n > slides.length) {slideIndex = 1}
+  // if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
