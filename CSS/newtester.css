@@ -163,7 +163,7 @@
   }
   .mainprojectspage{
     display: grid;
-    grid-template-columns: 225px 1fr 1fr;
+    grid-template-columns: 225px 0.55fr 1fr;
     grid-template-rows: 70px 1fr 1fr;
     background-color:white;
     padding: 20px;
