@@ -22,9 +22,14 @@
     grid-row: 1;
   }
   .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     background-color: white;
     grid-column: 1/4;
     grid-row: 2;
+
   }
   .profilepicture {
     background-color: white;
