@@ -145,7 +145,7 @@
     grid-template-columns: 225px 1fr;
     grid-template-rows: 70px 1fr;
     background-color:white;
-    padding:20px;
+    padding:30px;
     gap:20px;
   }
 
@@ -172,7 +172,7 @@
     grid-template-columns: 225px 1fr 1fr 1fr;
     grid-template-rows: 70px 1fr 1fr;
     background-color:white;
-    padding: 20px;
+    padding: 30px;
     gap:20px;
   }
   .projecttitle {
@@ -245,7 +245,7 @@
     grid-template-columns: 225px 1fr;
     grid-template-rows: 70px 100px 1fr;
     background-color:white;
-    padding: 20px;
+    padding: 30px;
     gap:20px;
   }
 
