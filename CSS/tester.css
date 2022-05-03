@@ -39,7 +39,7 @@
   }
   .introduction {
     background-color: white;
-    padding: 50px;
+    padding: 90px;
     grid-column:2/3;
     grid-row:3;
     align-content: center;
